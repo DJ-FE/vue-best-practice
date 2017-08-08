@@ -1,9 +1,11 @@
 # vue-best-practice
 There are some best practices for vue project in md file
 ### 引言
+---
 何为最佳实践？业务场景不同，适用的技术栈与方案也不同，所以‘最适用的就是最佳的’。本文章只是针对目前团队的开发模式总结一些开发实践，谈不上最佳，但可能却是目前最适用的
 
 ### 项目模板
+---
 首先需求到来的时候，无非有两种情况，1、新需求   2、迭代需求。无论是新需求还是迭代需求，我们目前项目开发都是结合本地构建（工程化），所以首先要有一个适合我们业务需求的vue模板。目前已有两套vue模板：1.家政的DJ-FE/vue-template 2.架构组统一的vue- common;如果项目是新需求（从零开始），建议使用vue-common，方便后期统一维护；反之，如果需求之前已经是基于家政的vue模板，那应该继续使用该模板，避免升级迁移带来不必要的问题。
 
 家政vue模板地址：[https://github.com/DJ-FE/vue-template](https://github.com/DJ-FE/vue-template)
@@ -12,6 +14,7 @@ There are some best practices for vue project in md file
 
 
 ### 项目配置
+---
 #### DJ-FE/vue-template模板
 包括：入口文件（多入口）、mock数据、打包路径（如果接入djoy，路径要按规则设定）、静态资源服务器配置、sprite等等
 
@@ -24,6 +27,7 @@ There are some best practices for vue project in md file
 详情见confluence文档：[http://confluence.daojia-inc.com/pages/viewpage.action?pageId=45948660](http://confluence.daojia-inc.com/pages/viewpage.action?pageId=45948660)
 
 ### 最佳实践
+---
 tips：以下实践排名不分先后
 1. **代码规范**，对于开发阶段，首先最重要的是代码规范，eslint功能一定不要关闭，eslint功能一定不要关闭，eslint功能一定不要关闭，重要的事情说3遍；具体规范见[规范文档](http://confluence.daojia-inc.com/pages/viewpage.action?pageId=50599262)。
 2. **项目目录结构**（以DJ-FE/vue-template为例），一般目录结构说的就是src这个目录的结构布局，其大致结构如下：
